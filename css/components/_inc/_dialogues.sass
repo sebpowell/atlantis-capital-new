@@ -20,7 +20,7 @@
 		opacity: 0.4
 		line-height: 1
 		&:hover
-			opacity: 1 
+			opacity: 1
 
 
 .modal
@@ -29,25 +29,28 @@
 	visibility: hidden
 	opacity: 0
 	padding: 60px
-	overflow: hidden // Presere rounded corners on header.
-	
+	// overflow: hidden // Presre rounded corners on header.
+	max-height: 600px
+	overflow-y: scroll
+
+
 	+respond-above(device-medium)
 		// border-radius: 5px
 		margin: 100px auto
 		width: 600px
-		
-	
+
+
 	&.is-open
 		visibility: visible
 		opacity: 1
 		transform: rotateX(0deg)
-		
+
 
 	&.small
 		+respond-above(device-medium)
 			width: 360px
 			margin-left: -180px
-	
+
 	&.large
 		max-width: 600px
 		width: 95%
@@ -63,10 +66,10 @@
 			margin-bottom: 0
 			font-size: 20px
 			font-weight: 500
-	
 
-	
-		
+
+
+
 	.modal-body
 		+clearfix
 		padding: sizes(double)
