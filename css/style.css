@@ -1599,7 +1599,7 @@ hr { border-top: 1px solid #ECECEC; width: 100%; margin: 60px 0; }
 .module-team .module-team-member:after { clear: both; }
 @media (min-width: 350px) { .module-team .module-team-member { width: 50%; } }
 @media (min-width: 480px) { .module-team .module-team-member { width: 50%; } }
-@media (min-width: 780px) { .module-team .module-team-member { width: 33.33333%; } }
+@media (min-width: 780px) { .module-team .module-team-member { width: 50%; } }
 
 .module-split-panel { zoom: 1; }
 .module-split-panel:before, .module-split-panel:after { content: ""; display: table; }
